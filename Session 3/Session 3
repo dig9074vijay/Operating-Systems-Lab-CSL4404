@@ -1,0 +1,398 @@
+Last login: Tue Feb 16 11:54:08 on ttys000
+1906188@Digvijays-MacBook-Air ~ % cd official/data/branch
+1906188@Digvijays-MacBook-Air branch % ls
+student.dat
+1906188@Digvijays-MacBook-Air branch % cat student.dat
+Maths, 1906188, Walter
+Physics, 1906182, Gustavo
+Chemistry, 2006188, Skyler
+Biology, 1806590, Flynn
+Economics, 1012390, Hank
+Geography, 2021234, Jesse
+History, 1234567, Erhmantraut
+Civics, 2312178, Badger
+Computer, 2002001, Pete
+Music, 2312417, Hector
+1906188@Digvijays-MacBook-Air branch % cat >> student.dat
+EVS, 1234321, Rick
+Science, 1243321, Carl
+CS, 9087652, Lori
+Botany, 5671234, Shane 
+Zoology, 3423421, Daryl
+Data, 9890765, Judith
+Web, 1233214, Michonne
+Graph, 6758412, Maggie
+Architecture, 3421923, Glenn
+Algorithm, 1908762, Gabriel
+1906188@Digvijays-MacBook-Air branch % car student.dat
+zsh: command not found: car
+1906188@Digvijays-MacBook-Air branch % cat student.dat
+Maths, 1906188, Walter
+Physics, 1906182, Gustavo
+Chemistry, 2006188, Skyler
+Biology, 1806590, Flynn
+Economics, 1012390, Hank
+Geography, 2021234, Jesse
+History, 1234567, Erhmantraut
+Civics, 2312178, Badger
+Computer, 2002001, Pete
+Music, 2312417, Hector
+EVS, 1234321, Rick
+Science, 1243321, Carl
+CS, 9087652, Lori
+Botany, 5671234, Shane
+Zoology, 3423421, Daryl
+Data, 9890765, Judith
+Web, 1233214, Michonne
+Graph, 6758412, Maggie
+Architecture, 3421923, Glenn
+Algorithm, 1908762, Gabriel
+1906188@Digvijays-MacBook-Air branch % clear
+
+1906188@Digvijays-MacBook-Air branch % cd official/data/branch
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1906188@Digvijays-MacBook-Air branch % clear                  
+
+1906188@Digvijays-MacBook-Air branch % cd official/data/branch
+cd: no such file or directory: official/data/branch
+1906188@Digvijays-MacBook-Air branch % clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1906188@Digvijays-MacBook-Air branch % cd
+1906188@Digvijays-MacBook-Air ~ % clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1906188@Digvijays-MacBook-Air ~ % cd official/data/branch
+1906188@Digvijays-MacBook-Air branch % ls   
+student.dat
+1906188@Digvijays-MacBook-Air branch % clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1906188@Digvijays-MacBook-Air branch % cat > exstudent.dat
+CS2201, 1906188, Kayla
+CS4402, 1906182, Britney
+CS9082, 1906181, Jay
+CS1024, 2001211, Rebecca
+CS1234, 1901117, Dexter
+CS09074, 1706123, Deb
+CS1290, 1901072, LaGuerta
+CSL1290, 1906072, Pablo
+CS1789, 1906712, Tom
+CS5074, 1234876, Kenzi
+1906188@Digvijays-MacBook-Air branch % clear
+
+
+
+
+
+
+1906188@Digvijays-MacBook-Air branch % cat student.dat exstudent.dat
+Maths, 1906188, Walter
+Physics, 1906182, Gustavo
+Chemistry, 2006188, Skyler
+Biology, 1806590, Flynn
+Economics, 1012390, Hank
+Geography, 2021234, Jesse
+History, 1234567, Erhmantraut
+Civics, 2312178, Badger
+Computer, 2002001, Pete
+Music, 2312417, Hector
+EVS, 1234321, Rick
+Science, 1243321, Carl
+CS, 9087652, Lori
+Botany, 5671234, Shane
+Zoology, 3423421, Daryl
+Data, 9890765, Judith
+Web, 1233214, Michonne
+Graph, 6758412, Maggie
+Architecture, 3421923, Glenn
+Algorithm, 1908762, Gabriel
+CS2201, 1906188, Kayla
+CS4402, 1906182, Britney
+CS9082, 1906181, Jay
+CS1024, 2001211, Rebecca
+CS1234, 1901117, Dexter
+CS09074, 1706123, Deb
+CS1290, 1901072, LaGuerta
+CSL1290, 1906072, Pablo
+CS1789, 1906712, Tom
+CS5074, 1234876, Kenzi
+1906188@Digvijays-MacBook-Air branch % clear
+
+1906188@Digvijays-MacBook-Air branch % 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1906188@Digvijays-MacBook-Air branch % clear
+
+1906188@Digvijays-MacBook-Air branch % cat student.dat exstudent.dat > allstudents.dat
+1906188@Digvijays-MacBook-Air branch % cat allstudents.dat
+Maths, 1906188, Walter
+Physics, 1906182, Gustavo
+Chemistry, 2006188, Skyler
+Biology, 1806590, Flynn
+Economics, 1012390, Hank
+Geography, 2021234, Jesse
+History, 1234567, Erhmantraut
+Civics, 2312178, Badger
+Computer, 2002001, Pete
+Music, 2312417, Hector
+EVS, 1234321, Rick
+Science, 1243321, Carl
+CS, 9087652, Lori
+Botany, 5671234, Shane
+Zoology, 3423421, Daryl
+Data, 9890765, Judith
+Web, 1233214, Michonne
+Graph, 6758412, Maggie
+Architecture, 3421923, Glenn
+Algorithm, 1908762, Gabriel
+CS2201, 1906188, Kayla
+CS4402, 1906182, Britney
+CS9082, 1906181, Jay
+CS1024, 2001211, Rebecca
+CS1234, 1901117, Dexter
+CS09074, 1706123, Deb
+CS1290, 1901072, LaGuerta
+CSL1290, 1906072, Pablo
+CS1789, 1906712, Tom
+CS5074, 1234876, Kenzi
+1906188@Digvijays-MacBook-Air branch % clear
+
+1906188@Digvijays-MacBook-Air branch % 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1906188@Digvijays-MacBook-Air branch % clear
+
+1906188@Digvijays-MacBook-Air branch % cp allstudents.dat /Users/guest/official/data/corporate
+1906188@Digvijays-MacBook-Air branch % ls
+allstudents.dat	exstudent.dat	student.dat
+1906188@Digvijays-MacBook-Air branch % cd /Users/guest/official/data/corporate
+1906188@Digvijays-MacBook-Air corporate % ls
+allstudents.dat
+1906188@Digvijays-MacBook-Air corporate % 
+
+
+
+
+
+
+
+1906188@Digvijays-MacBook-Air corporate % clear
+
+
+
+
+
+
+1906188@Digvijays-MacBook-Air corporate % cd official/data/branch
+cd: no such file or directory: official/data/branch
+1906188@Digvijays-MacBook-Air corporate % cd
+1906188@Digvijays-MacBook-Air ~ % cd official/data/branch
+1906188@Digvijays-MacBook-Air branch % clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+1906188@Digvijays-MacBook-Air branch % pwd
+/Users/Guest/official/data/branch
+1906188@Digvijays-MacBook-Air branch % cd /Users/guest/official/data/corporate
+1906188@Digvijays-MacBook-Air corporate % clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+1906188@Digvijays-MacBook-Air corporate % vi cstudent.dat
+1906188@Digvijays-MacBook-Air corporate % cat student.dat
+cat: student.dat: No such file or directory
+1906188@Digvijays-MacBook-Air corporate % cat cstudent.dat
+CS3401, 1906188, Digvijay, SDE1, Amazon
+CS4401, 1906182, Rishabh, SDE2, Google
+ME2201, 2001181, Ayush, Chief Engineer, SAIL
+ME3401, 2120111, Tushar, CEO, ONGC
+ME1267, 1901071, Mrityunjay, CEO, NTPC
+ME9074, 1901076, Sudhanshu, CEO, BHEL
+CS5671, 1901234, Hank, SDE1, Tesla
+CS9074, 1901117, Walter, HR, Switch 
+CS1234, 1906123, Skyler, SDE1, Microsoft
+CS7642, 1906121, Flynn, SDE1, Microsoft 
+1906188@Digvijays-MacBook-Air corporate % clear
+
+
+
+1906188@Digvijays-MacBook-Air corporate % vi cstudent.dat
+1906188@Digvijays-MacBook-Air corporate % clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1906188@Digvijays-MacBook-Air corporate % 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
