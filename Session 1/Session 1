@@ -1,0 +1,215 @@
+1906188@Digvijays-MacBook-Air ~ % sudo su
+Password:
+Sorry, try again.
+Password:
+Sorry, try again.
+Password:
+sudo: 2 incorrect password attempts
+1906188@Digvijays-MacBook-Air ~ % sudo su -
+Password:
+Sorry, try again.
+Password:
+Sorry, try again.
+Password:
+sudo: 3 incorrect password attempts
+1906188@Digvijays-MacBook-Air ~ % sudo su -
+Password:
+Sorry, try again.
+Password:
+sudo: 1 incorrect password attempt
+1906188@Digvijays-MacBook-Air ~ % clear
+
+
+1906188@Digvijays-MacBook-Air ~ % clear
+
+1906188@Digvijays-MacBook-Air ~ % 
+
+
+1906188@Digvijays-MacBook-Air ~ % clear
+
+1906188@Digvijays-MacBook-Air ~ % pwd
+/Users/Guest
+1906188@Digvijays-MacBook-Air ~ % 
+
+1906188@Digvijays-MacBook-Air ~ % clear
+
+1906188@Digvijays-MacBook-Air ~ % pwd
+/Users/Guest
+1906188@Digvijays-MacBook-Air ~ % clear
+
+
+1906188@Digvijays-MacBook-Air ~ % who
+Guest    console  Feb 15 23:32 
+1906188  ttys000  Feb 15 23:37 
+1906188@Digvijays-MacBook-Air ~ % clear
+
+
+
+1906188@Digvijays-MacBook-Air ~ % whoami
+1906188
+1906188@Digvijays-MacBook-Air ~ % who am i
+1906188  ttys000  Feb 15 23:37 
+1906188@Digvijays-MacBook-Air ~ % clear
+
+
+1906188@Digvijays-MacBook-Air ~ % passwd
+Changing password for 1906188.
+Old Password:
+New Password:
+Retype New Password:
+passwd: authentication token failure
+1906188@Digvijays-MacBook-Air ~ % cleaar
+zsh: command not found: cleaar
+1906188@Digvijays-MacBook-Air ~ % clear
+
+
+1906188@Digvijays-MacBook-Air ~ % ls
+Desktop		Movies
+Documents	Music
+Downloads	Pictures
+Library		Public
+1906188@Digvijays-MacBook-Air ~ % clear
+
+
+
+1906188@Digvijays-MacBook-Air ~ % ls -l
+total 0
+drwx------+  9 1906188  _guest   288 Feb 16 00:08 Desktop
+drwx------+  4 1906188  _guest   128 Feb 15 23:54 Documents
+drwx------+  3 1906188  _guest    96 Feb 15 23:32 Downloads
+drwx------@ 62 1906188  _guest  1984 Feb 15 23:53 Library
+drwx------   3 1906188  _guest    96 Feb 15 23:32 Movies
+drwx------+  3 1906188  _guest    96 Feb 15 23:32 Music
+drwx------+  4 1906188  _guest   128 Feb 15 23:33 Pictures
+drwxr-xr-x+  4 1906188  _guest   128 Feb 15 23:32 Public
+1906188@Digvijays-MacBook-Air ~ % clear
+
+1906188@Digvijays-MacBook-Air ~ % ls -l
+total 0
+drwx------+  9 1906188  _guest   288 Feb 16 00:08 Desktop
+drwx------+  4 1906188  _guest   128 Feb 15 23:54 Documents
+drwx------+  3 1906188  _guest    96 Feb 15 23:32 Downloads
+drwx------@ 62 1906188  _guest  1984 Feb 15 23:53 Library
+drwx------   3 1906188  _guest    96 Feb 15 23:32 Movies
+drwx------+  3 1906188  _guest    96 Feb 15 23:32 Music
+drwx------+  4 1906188  _guest   128 Feb 15 23:33 Pictures
+drwxr-xr-x+  4 1906188  _guest   128 Feb 15 23:32 Public
+1906188@Digvijays-MacBook-Air ~ % clear
+
+
+1906188@Digvijays-MacBook-Air ~ % ls -d p*
+zsh: no matches found: p*
+1906188@Digvijays-MacBook-Air ~ % touch post.js
+1906188@Digvijays-MacBook-Air ~ % ls -d p*     
+post.js
+1906188@Digvijays-MacBook-Air ~ % clear
+
+
+
+1906188@Digvijays-MacBook-Air ~ % rm post.js
+1906188@Digvijays-MacBook-Air ~ % clear     
+
+
+1906188@Digvijays-MacBook-Air ~ % ls -d p*  
+zsh: no matches found: p*
+1906188@Digvijays-MacBook-Air ~ % touch post.js
+1906188@Digvijays-MacBook-Air ~ % ls -d p*
+post.js
+1906188@Digvijays-MacBook-Air ~ % clear
+
+
+
+1906188@Digvijays-MacBook-Air ~ % ls | grep ^ p
+grep: p: No such file or directory
+1906188@Digvijays-MacBook-Air ~ % ls
+Desktop		Library		Pictures
+Documents	Movies		Public
+Downloads	Music		post.js
+1906188@Digvijays-MacBook-Air ~ % ls | grep ^ p*
+1906188@Digvijays-MacBook-Air ~ % ls | grep^p*  
+zsh: no matches found: grep^p*
+1906188@Digvijays-MacBook-Air ~ % 
+[1]    broken pipe  ls
+1906188@Digvijays-MacBook-Air ~ % grep p*
+
+^C
+1906188@Digvijays-MacBook-Air ~ % clear
+
+
+1906188@Digvijays-MacBook-Air ~ % ls -las
+total 24
+ 0 drwxr-xr-x+ 17 1906188  _guest   544 Feb 16 00:11 .
+ 0 drwxr-xr-x   6 root     admin    192 Feb 15 23:32 ..
+ 8 -r--------   1 1906188  _guest     7 Feb 15 23:32 .CFUserTextEncoding
+16 -rw-r--r--@  1 1906188  _guest  6148 Feb 15 23:37 .DS_Store
+ 0 drwx------   6 1906188  _guest   192 Feb 16 00:03 .Trash
+ 0 -rw-r--r--   1 1906188  _guest     0 Feb 15 23:32 .localized
+ 0 -rw-------   1 1906188  _guest     0 Feb 15 23:37 .zsh_history
+ 0 drwx------  11 1906188  _guest   352 Feb 16 00:00 .zsh_sessions
+ 0 drwx------+ 11 1906188  _guest   352 Feb 16 00:11 Desktop
+ 0 drwx------+  4 1906188  _guest   128 Feb 15 23:54 Documents
+ 0 drwx------+  3 1906188  _guest    96 Feb 15 23:32 Downloads
+ 0 drwx------@ 62 1906188  _guest  1984 Feb 15 23:53 Library
+ 0 drwx------   3 1906188  _guest    96 Feb 15 23:32 Movies
+ 0 drwx------+  3 1906188  _guest    96 Feb 15 23:32 Music
+ 0 drwx------+  4 1906188  _guest   128 Feb 15 23:33 Pictures
+ 0 drwxr-xr-x+  4 1906188  _guest   128 Feb 15 23:32 Public
+ 0 -rw-r--r--   1 1906188  _guest     0 Feb 16 00:11 post.js
+1906188@Digvijays-MacBook-Air ~ % clear
+
+1906188@Digvijays-MacBook-Air ~ % man ls
+objc[2992]: Class AMSupportURLConnectionDelegate is implemented in both ?? (0x2029a8188) and ?? (0x11c2ac2b8). One of the two will be used. Which one is undefined.
+objc[2992]: Class AMSupportURLSession is implemented in both ?? (0x2029a81d8) and ?? (0x11c2ac308). One of the two will be used. Which one is undefined.
+1906188@Digvijays-MacBook-Air ~ % clear
+
+
+
+
+1906188@Digvijays-MacBook-Air ~ % man ls
+1906188@Digvijays-MacBook-Air ~ % 
+1906188@Digvijays-MacBook-Air ~ % clear
+
+
+
+
+
+1906188@Digvijays-MacBook-Air ~ % man ls
+1906188@Digvijays-MacBook-Air ~ % clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
